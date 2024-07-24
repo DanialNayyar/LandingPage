@@ -1,0 +1,120 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    /*background-image: url("space 1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+    background-color: rgb(61, 61, 61);
+    color: rgb(173, 216, 230);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container, .portfolio-container, .project-container {
+    padding: 20px;
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.header h2 {
+    font-size: 35px;
+    margin: 5px 0;
+}
+
+.profile-pic-container {
+    margin: 20px 0;
+}
+
+.profile-pic {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.bio {
+    font-size: 20px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.buttons {
+    margin: 20px 0;
+}
+
+.portfolio-button, .home-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.portfolio-button a, .home-button a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.linkedin-link {
+    display: inline-block;
+    margin: 10px 2px;
+    color: #0077b5;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 20px 0;
+}
+
+li button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+li button a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.gap{
+    height: 1000px;
+    background:linear-gradient(to bottom, rgb(61,61,61),rgb(44,40,40), rgb(61,61,61));
+}
+
+.gap2{
+    height: 250px;
+    background:linear-gradient(to bottom, rgb(61,61,61),rgb(44,40,40), rgb(61,61,61));
+}
